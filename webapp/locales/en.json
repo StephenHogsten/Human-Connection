@@ -178,7 +178,7 @@
     "post": "Post",
     "user": "User",
     "content": "Content",
-    "sortingLabel": {
+    "filterLabel": {
       "all": "All",
       "read": "Read",
       "unread": "Unread"
