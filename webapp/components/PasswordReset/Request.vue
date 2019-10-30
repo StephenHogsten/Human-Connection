@@ -89,7 +89,7 @@ export default {
       const { email } = this.formData
 
       try {
-        await this.$apollo.mutate({ mutation, variables: { email } })
+        await this.$apollo.mutate({ mutation, variables: { email: email.toLowerCase() } });
         this.submitted = true
 
         setTimeout(() => {
